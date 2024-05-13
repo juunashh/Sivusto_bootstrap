@@ -1,0 +1,128 @@
+#heading-palkki {
+    background-image: url(sauna_interior.jpg);
+    background-position: 60% 20%;
+    background-color: darkgray;
+    color: white;
+    height: 10em;
+    margin: auto;
+}
+
+#heading-palkki-2 {
+    background-image: url(sauna_interior.jpg);
+    background-position: 60% 20%;
+    background-color: darkgray;
+    color: white;
+    margin: auto;
+    padding: 1em 0 1em 0;
+}
+
+.kavennus-lg {
+    max-width: 960px;
+}
+
+.kavennus-md {
+    max-width: 720px;
+}
+
+.tausta {
+    background-color: rgb(60, 50, 40);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.tekstipohja {
+    background-color: papayawhip;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+#sivunimi {
+    margin: auto;
+    width: fit-content;
+}
+
+.row > .btn {
+    width: min-content; 
+}
+
+.showcase {
+    width: 5em;
+    height: 5em;
+    margin: auto;
+}
+
+.etu-teksti {
+    text-align: center;
+    font-size: large;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.main-heading {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.button-bw {
+    background-color: black;
+}
+.button-bw > a:link {
+    color: white;
+}
+.button-bw > a:visited {
+    color: gray;
+}
+.button-bw > a:hover {
+    color: lightblue;
+}
+.button-bw > a:active {
+    color:blue
+}
+#kuvakaruselli {
+    padding-bottom: 1em;
+    width: 75%;
+    margin: auto;
+}
+.item-h {
+    height: 480px;
+}
+
+.img-h {
+    height: 100%;
+    border-radius: 20px;
+    padding: 0 0.5em 0 0.5em;
+}
+
+.blogi-otsikko {
+    text-align: center;
+    color: rgb(59, 59, 59);
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+.about-nimi {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+.about-kuva {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    width: 100%;
+}
+
+.yhteystiedot {
+    border-style: groove;
+    border-width: 2px;
+    padding: 2em;
+    border-radius: 15px;
+    
+}
+
+.lomake > input, label {
+    margin: 0.5em 0 0.5em 0;
+}
