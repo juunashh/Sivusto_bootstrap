@@ -9,15 +9,21 @@
 </head>
 <body>
 
-    <div id="heading-palkki" class="d-flex justify-content-center align-items-center h1">
-        Sivuston nimi
+    <div id="heading-palkki" class="d-flex justify-content-center align-items-center">
+        Löylykansa
     </div>
         <nav class="navbar bg-light navbar-expand">
             <div class="container-fluid">
                     <ul class="navbar-nav navbar-collapse justify-content-center mb-md-0 mb-sm-2">
                         <li class="nav-item mx-4 mx-md-5"><a class="nav-link active" href="#">Etusivu</a></li>
                         <li class="nav-item mx-4 mx-md-5"><a class="nav-link" href="blogi.html">Blogisivu</a></li>
-                        <li class="nav-item mx-4 mx-md-5"><a class="nav-link" href="tietoa.html">Tietoa minusta</a></li>
+                        <li class="nav-item dropdown mx-4 mx-md-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="about-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Yhteystiedot</a>
+                            <ul class="dropdown-menu" aria-labelledby="about-dropdown">
+                                <li><a class="dropdown-item" href="tietoa.html">Tietoa minusta</a></li>
+                                <li><a class="dropdown-item" href="form.html">Yhteydenottolomake</a></li>
+                              </ul>
+                        </li>
                     </ul>
                 
             </div>
@@ -25,29 +31,29 @@
     <div class="container-fluid tausta">
         <div class="container-lg kavennus-lg tekstipohja">
             <div class="container-md kavennus-md">
-                <div class="main-heading" id="sivunimi"><h1>Etusivu</h1></div>
+                <div class="main-heading" id="sivunimi"><h1>Löylykansan saunablogi</h1></div>
                 <div class="center-text etu-teksti">
-                    <p class="fw-bold">Olet saapunut suomalaisen saunakulttuurin ytimeen! Tervetuloa Saunamaan blogiin, jossa pureudumme syvälle löylyjen maailmaan. Astu mukaan matkalle, jossa tutustumme erilaisiin saunoihin ympäri Suomen, jaamme vinkkejä täydellisen löylyn löytämiseen sekä kerromme tarinoita saunomisen taianomaisesta voimasta.</p>
+                    <p class="fw-bold">Olet saapunut suomalaisen saunakulttuurin ytimeen! Tervetuloa Löylykansan blogiin, jossa pureudumme syvälle löylyjen maailmaan. Astu mukaan matkalle, jossa tutustumme erilaisiin saunoihin ympäri Suomen, jaamme vinkkejä täydellisen löylyn löytämiseen sekä kerromme tarinoita saunomisen taianomaisesta voimasta.</p>
 
                     <p>Koemme yhdessä perinteisen savusaunan lämmön metsän siimeksessä, tutustumme modernien design-saunojen innovatiiviseen maailmaan ja sukellamme rantasaunan rentouttavaan tunnelmaan aaltojen äärellä. Saatamme löytää itsemme unohtumattomista löylyhetkistä mökkisaunan lauteilla tai kaupungin vilinästä kylpyläsaunan rauhassa.</p>
                     
-                    <p>Luvassa on inspiroivia tarinoita, vinkkejä saunareissuille sekä mielenkiintoisia kohtaamisia saunakulttuurin parissa. Liity mukaan Saunamaan yhteisöön ja löydä oma polkusi suomalaisen saunan lämpöön ja tunnelmaan! </p>
+                    <p>Luvassa on inspiroivia tarinoita, vinkkejä saunareissuille sekä mielenkiintoisia kohtaamisia saunakulttuurin parissa. Liity mukaan Löylykansan yhteisöön ja löydä oma polkusi suomalaisen saunan lämpöön ja tunnelmaan! </p>
                     <div class="row">
                         <div class="col-sm-6 d-flex justify-content-center mb-4"><a href="blogi.html" type="button" class="btn btn-secondary">Blogisivulle</a></div>
-                        <div class="col-sm-6 d-flex justify-content-center mb-4"><a href="tietoa.html" type="button" class="btn btn-secondary">Lisätietoa</a></div>
+                        <div class="col-sm-6 d-flex justify-content-center mb-4"><a href="form.html" type="button" class="btn btn-secondary">Ota yhteyttä</a></div>
                     </div>
                 </div>    
             </div>
             <div id="kuvakaruselli" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="yksi.gif" class="d-block w-100 img-h" alt="...">
+                    <img src="savu-kuusijarvi.jpeg" class="d-block w-100 img-h" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="kaksi.gif" class="d-block w-100 img-h" alt="...">
+                    <img src="mustajarvi.jpg" class="d-block w-100 img-h" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="kolme.gif" class="d-block w-100 img-h" alt="...">
+                    <img src="masku-kalliosauna.jpg" class="d-block w-100 img-h" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#kuvakaruselli" data-bs-slide="prev">
@@ -63,11 +69,11 @@
     </div>
     <footer>
         <div class="container-fluid">
-        <div class="d-none d-sm-none d-md-flex justify-content-center">LOGO</div>
+        <div class="d-none d-xs-none d-sm-flex justify-content-center">LOGO</div>
             <div class="row w-50 mx-auto">
-                <div class="center-text col-md-4">Yksi</div>
-                <div class="center-text col-md-4">Kaksi</div>
-                <div class="center-text col-md-4">Kolme</div>
+                <div class="center-text col-md-4">Löylykansa</div>
+                <div class="center-text col-md-4">joonas.ristola @student.laurea.fi</div>
+                <div class="center-text col-md-4">© Joonas Ristola 2024</div>
             </div>
         </div>
     </footer>

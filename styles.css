@@ -1,19 +1,23 @@
 #heading-palkki {
     background-image: url(sauna_interior.jpg);
-    background-position: 60% 20%;
+    background-position: 30% 78%;
     background-color: darkgray;
     color: white;
     height: 10em;
     margin: auto;
+    letter-spacing: 3px;
+    font-size: 3em;
 }
 
 #heading-palkki-2 {
     background-image: url(sauna_interior.jpg);
-    background-position: 60% 20%;
+    background-position: 30% 78%;
     background-color: darkgray;
     color: white;
     margin: auto;
     padding: 1em 0 1em 0;
+    letter-spacing: 3px;
+    font-size: 3em;
 }
 
 .kavennus-lg {
