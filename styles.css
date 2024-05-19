@@ -130,3 +130,8 @@
 .lomake > input, label {
     margin: 0.5em 0 0.5em 0;
 }
+
+.logo {
+    width: 5em;
+    margin: 8px 0 0 0;
+}
